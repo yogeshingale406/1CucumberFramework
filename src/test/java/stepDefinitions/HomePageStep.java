@@ -1,17 +1,10 @@
 package stepDefinitions;
 
 
-import java.io.File;
-
 import org.junit.Assert;
-import org.openqa.selenium.By;
-
 import cucumber.TestContext;
-import cucumber.api.java.en.And;
 import cucumber.api.java.en.When;
-import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
-
 import managers.FileReaderManager;
 
 
