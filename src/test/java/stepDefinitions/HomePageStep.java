@@ -16,6 +16,7 @@ public class HomePageStep {
 	
 	public HomePageStep(TestContext context) {
 		testContext = context;
+		 
 	}
 
 	@When("^browser is opened and user puts given url$")
