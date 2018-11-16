@@ -25,7 +25,7 @@ public class WebDriverManager {
 		driverType = FileReaderManager.getInstance().getConfigReader().getBrowser();
 		environmentType = FileReaderManager.getInstance().getConfigReader().getEnvironment();
 	}
- 
+ //function to return driver object reference
 	public WebDriver getDriver() {
 		if(driver == null) driver = createDriver();
 		return driver;
